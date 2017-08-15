@@ -1,0 +1,32 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- Tiêu đề cho danh sách lựa chọn thêm [CHAR LIMIT = 20]-->
+    <string name="lua_chon_them">Lựa chọn thêm</string>
+
+    <!-- Tin nhắn cảm ơn cho việc đặt hàng [CHAR LIMIT = NONE]-->
+    <string name="cam_on">Cảm ơn!</string>
+
+    <!--Tên cho phương thức đặt hàng. Nó sẽ hiển thị theo định dạng "Tên: Kampus" với Kampus là tên
+        người dùng. [CHAR LIMIT = NONE]-->
+    <string name="ten_dat_hang">Tên: <xliff:g id="name" example="Kampus">%s</xliff:g></string>
+
+    <!--Hiển thị trên tin nhắn đặt hàng xem có thêm sữa hay không-->
+    <string name="chon_them_sua">Bạn chọn thêm sữa:</string>
+
+    <!--Hiển thị trên tin nhắn đặt hàng xem có thêm sô cô la hay không-->
+    <string name="chon_them_socola">Bạn chọn thêm sô cô la:</string>
+
+    <!--Hiển thị số lượng đơn hàng-->
+    <string name="so_luong">Số lượng:</string>
+
+    <!--Hiển thị tổng số tiền-->
+    <string name="tong">Tổng:</string>
+
+    <!--Trường họ tên-->
+    <string name="ho_va_ten">Họ và tên</string>
+
+    <string name="dat_hang">ĐẶT HÀNG</string>
+    <string name="sua">Sữa</string>
+    <string name="socola">Sô cô la</string>
+</resources>

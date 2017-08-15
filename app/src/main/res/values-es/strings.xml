@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Java</string>
+
+    <!-- Tiêu đề cho danh sách lựa chọn thêm [CHAR LIMIT = 20]-->
+    <string name="lua_chon_them">Ingredientes</string>
+
+    <!-- Tin nhắn cảm ơn cho việc đặt hàng [CHAR LIMIT = NONE]-->
+    <string name="cam_on">Gracias!</string>
+
+    <!--Hiển thị trên tin nhắn đặt hàng xem có thêm sô cô la hay không-->
+    <string name="chon_them_socola">Chocolate</string>
+
+    <!--Hiển thị trên tin nhắn đặt hàng xem có thêm sữa hay không-->
+    <string name="chon_them_sua">Leche</string>
+
+
+    <string name="dat_hang">Orden</string>
+
+    <!--Trường họ tên-->
+    <string name="ho_va_ten">Nombre</string>
+
+    <!--Hiển thị số lượng đơn hàng-->
+    <string name="so_luong">Número</string>
+
+    <!--Hiển thị tổng số tiền-->
+    <string name="tong">Total</string>
+    <string name="socola">Chocolate</string>
+    <string name="sua">Leche</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:context="com.example.android.justjava.MainActivity">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ho_va_ten"
+            android:text=""
+            android:id="@+id/name_field"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:text="@string/lua_chon_them"
+            style="@style/HeaderTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/sua_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+
+            android:text="@string/sua"
+            android:textSize="16sp" />
+
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+
+            android:text="@string/socola"
+            android:textSize="16sp"
+            android:id="@+id/socola_checkbox"/>
+
+
+
+        <TextView
+            android:text="@string/so_luong"
+            style="@style/HeaderTextStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="giam"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/so_luong_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="2"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="tang"
+                android:text="+" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="thucHienDatHang"
+            android:text="@string/dat_hang" />
+    </LinearLayout>
+
+</ScrollView>
